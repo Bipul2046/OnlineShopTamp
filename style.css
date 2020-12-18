@@ -1,0 +1,107 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: "Open Sans";
+  background-color: #ff9900;
+}
+.main-container{
+    background-color:white;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+/*Nav Bar*/
+.nav-bar{
+    background-color:white;
+    margin:0px;  
+}
+.nav-bar-items{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.logo{
+    margin-left:3%;
+}
+.nav-toggle{
+    background-color:#ff9900;
+}
+
+/*main section*/
+.main-data-section{
+    height: 500px;
+    color:#ff9900;
+    padding-top:80px;
+    padding-left:5%;
+    word-spacing: 3px;
+}
+p{
+    opacity: 0.5;
+    color:black;
+}
+.see-more-btn{
+    background-color: #ff9900;
+    border-radius: 15px;
+    color:white;
+    font-family: "Open Sans";
+}
+
+/*footer*/
+.footer-box{
+    padding-top :20px;
+    background-color: #00264d;
+    color: white;
+}
+.fa {
+    margin-top:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .footer-icon{
+      margin-left: 30px;
+      margin-bottom: 30px;
+  }
+
+
+@media only screen and (max-width: 600px) {
+
+    .col-md-6{
+       text-align: center;
+   }
+   .footer-icon{
+       text-align: center;
+   }
+   .main-container{
+    background-color:white;
+    margin:auto;
+}
+   
+}
+
+
+
+
+  
